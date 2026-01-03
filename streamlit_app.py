@@ -181,5 +181,5 @@ if st.button("Hitung Akar"):
                 st.success(f"Akar ≈ {df.iloc[-1]['c']}")
                 st.dataframe(df, use_container_width=True)
 
-          except Exception as e:
+        except Exception as e:
             st.error(f"Terjadi kesalahan: {e}")
